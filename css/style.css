@@ -4,7 +4,7 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(102, 0, 0, .8); }
+a { color: rgba(156, 102, 218, 0.8); }
 a:hover { color: rgba(102, 0, 0, 1); }
 
 /* GLOBAL TYPOGRAPHY */ 
@@ -44,7 +44,7 @@ img {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(102, 0, 0, 1);
+    background-color: rgb(26, 156, 207);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -182,7 +182,10 @@ aside {
 }
 
 .page-home .hero {
-    /* background-image:url('../images/greenleaves.jpg'); */
+     background-image:url('../images/taroleaves.jpg');
+     background-size: cover;
+     background-repeat: no-repeat; 
+     background-position: center 25%;
     padding-top: 10em;
 }
 
